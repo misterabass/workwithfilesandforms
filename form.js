@@ -33,7 +33,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   } else {
     // Submit form data
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "/submit-form", true);
+    xhr.open("POST", "https://workwithfilesandforms.netlify.app//submit-form", true);
     xhr.setRequestHeader("Content-Type", "application/json");
 
     // Save form data to 'database.json'
